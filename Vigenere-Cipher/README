@@ -1,0 +1,7 @@
+- User memasukkan plaintext dan key.
+- Setiap huruf plaintext diubah menjadi nilai angka 0–25, dengan A = 0 sampai Z = 25.
+- Huruf pada key juga diubah menjadi nilai 0–25 dan diulang sampai panjang plaintext terpenuhi.
+- Enkripsi menggunakan rumus: C = (P + K) mod 26
+- Nilai ciphertext dikonversi kembali menjadi huruf.
+- Untuk dekripsi digunakan rumus: P = (C - K) mod 26
+- Program menampilkan plaintext, nilai numerik plaintext dan key, hasil operasi modulo 26, serta ciphertext.
